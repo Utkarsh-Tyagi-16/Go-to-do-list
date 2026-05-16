@@ -67,7 +67,7 @@ const theme = extendTheme({
 				transition: "all 0.2s ease",
 			},
 			variants: {
-				primary: (props: any) => ({
+				primary: (_props: any) => ({
 					bg: "linear-gradient(135deg, #8b5cf6, #7c3aed)",
 					color: "white",
 					_hover: {

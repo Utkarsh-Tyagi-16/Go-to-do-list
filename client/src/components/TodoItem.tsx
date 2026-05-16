@@ -1,4 +1,4 @@
-import { Badge, Box, Flex, Spinner, Text, useColorModeValue, IconButton, Input, Collapse } from "@chakra-ui/react";
+import { Badge, Box, Flex, Spinner, Text, useColorModeValue, Input, Collapse } from "@chakra-ui/react";
 import { FaCheckCircle } from "react-icons/fa";
 import { MdDelete } from "react-icons/md";
 import { Todo } from "./TodoList";
@@ -266,7 +266,7 @@ const TodoItem = ({ todo, index }: { todo: Todo; index: number }) => {
 				<Box
 					className="action-btn check-btn"
 					cursor="pointer"
-					onClick={() => updateTodo()}
+					onClick={() => updateTodo(undefined)}
 					color={useColorModeValue("gray.400", "gray.500")}
 					_hover={{ color: "green.400" }}
 				>

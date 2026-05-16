@@ -2,7 +2,7 @@ import { Box, Flex, Text, useColorModeValue, Stack, IconButton, Badge } from "@c
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { BASE_URL } from "../App";
 import { Todo } from "./TodoList";
-import { FaArrowRight, FaArrowLeft, FaCheckCircle } from "react-icons/fa";
+import { FaArrowLeft, FaCheckCircle } from "react-icons/fa";
 import { MdDelete } from "react-icons/md";
 
 export default function KanbanBoard() {

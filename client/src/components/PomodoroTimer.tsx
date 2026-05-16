@@ -14,7 +14,7 @@ const PomodoroTimer = () => {
 	}, []);
 
 	useEffect(() => {
-		let interval: NodeJS.Timeout;
+		let interval: ReturnType<typeof setInterval>;
 		if (isActive && timeLeft > 0) {
 			interval = setInterval(() => setTimeLeft((t) => t - 1), 1000);
 		} else if (timeLeft === 0) {

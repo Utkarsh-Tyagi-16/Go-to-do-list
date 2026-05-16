@@ -1,4 +1,4 @@
-import { Box, Flex, Spinner, Stack, Text, useColorModeValue, Input, Select } from "@chakra-ui/react";
+import { Box, Flex, Stack, Text, useColorModeValue, Input, Select } from "@chakra-ui/react";
 
 import TodoItem from "./TodoItem";
 import { useQuery } from "@tanstack/react-query";
